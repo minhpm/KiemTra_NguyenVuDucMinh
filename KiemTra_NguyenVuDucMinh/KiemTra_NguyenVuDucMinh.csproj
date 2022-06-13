@@ -180,9 +180,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\SinhVien\ListSV.cshtml" />
     <Content Include="Views\SinhVien\Details.cshtml" />
+    <Content Include="Views\SinhVien\Create.cshtml" />
+    <Content Include="Views\SinhVien\Edit.cshtml" />
+    <Content Include="Views\SinhVien\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\TaiKhoan\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
