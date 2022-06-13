@@ -128,11 +128,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HocPhanController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SinhVienController.cs" />
+    <Compile Include="Controllers\TaiKhoanController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ChiTietDangKy.cs" />
     <Compile Include="Models\DangKy.cs" />
     <Compile Include="Models\HocPhan.cs" />
     <Compile Include="Models\Model1.cs" />
@@ -147,6 +150,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\sv1.jpg" />
     <Content Include="Content\images\sv2.jpg" />
+    <Content Include="Content\images\sv3.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -183,10 +187,11 @@
     <Content Include="Views\SinhVien\Create.cshtml" />
     <Content Include="Views\SinhVien\Edit.cshtml" />
     <Content Include="Views\SinhVien\Delete.cshtml" />
+    <Content Include="Views\HocPhan\listHP.cshtml" />
+    <Content Include="Views\TaiKhoan\DangNhap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\TaiKhoan\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

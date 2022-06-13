@@ -5,15 +5,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Delete</h2>
+<h2>XÓA SINH VIÊN</h2>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Bạn có muốn xóa sinh viên này?</h3>
 <div>
-    <h4>SinhVien</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.HoTen)
+            MSSV
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaSV)
+        </dd>
+
+        <dt>
+            Họ tên
         </dt>
 
         <dd>
@@ -21,7 +28,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.GioiTinh)
+            Giới tính
         </dt>
 
         <dd>
@@ -29,7 +36,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.NgaySinh)
+            Ngày sinh
         </dt>
 
         <dd>
@@ -37,7 +44,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Hinh)
+            Hình
         </dt>
 
         <dd>
@@ -45,7 +52,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.MaNganh)
+            Mã Ngành
         </dt>
 
         <dd>

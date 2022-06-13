@@ -9,6 +9,8 @@ namespace KiemTra_NguyenVuDucMinh.Models
     [Table("HocPhan")]
     public partial class HocPhan
     {
+        internal int iSoluong;
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public HocPhan()
         {

@@ -109,7 +109,5 @@ namespace KiemTra_NguyenVuDucMinh.Controllers
             file.SaveAs(Server.MapPath("~/Content/images/" + file.FileName));
             return "/Content/images/" + file.FileName;
         }
-
-
     }
 }

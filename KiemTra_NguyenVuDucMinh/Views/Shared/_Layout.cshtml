@@ -21,7 +21,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Sinh Viên", "ListSV", "SinhVien")</li>
-                    <li>@Html.ActionLink("Học Phần", "About", "Home")</li>                   
+                    <li>@Html.ActionLink("Học Phần", "ListHP", "HocPhan")</li>
                     <li>@Html.ActionLink("Đăng Ký", "DangKy", "TaiKhoan")</li>
                     <li>@Html.ActionLink("Đăng Nhập", "DangNhap", "TaiKhoan")</li>
                 </ul>
@@ -32,12 +32,13 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Nguyễn Vũ Đức Minh</p>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @RenderSection("upload", required: false)
 </body>
 </html>
